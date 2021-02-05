@@ -7,20 +7,18 @@ const app = express();
 // Use the path
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Creates a route
-app.get('/', (req, res) => {
-  res.send({ message: 'Welcome WWW!' });
-});
-
-// // Serve the HTML File
+// // Creates a route
 // app.get('/', (req, res) => {
-//   res.sendFile(`${__dirname}/public/index.html`);
+//   res.send({ message: 'Welcome WWW!' });
 // });
 
-// Server listener
-app.listen(8080, () => {
-  console.log('Application is listening on port 8080');
-  console.log('http://localhost:8080');
+// Serve the HTML File // Serving Static Assets such as HTML, CSS, JavaScript, Images
+app.get('/', (req, res) => {
+  res.sendFile(`${__dirname}/public/index.html`);
 });
 
-// Serving Static Assets such as HTML, CSS, JavaScript, Images
+// Server listener
+app.listen(8080, (err) => {
+  if (err) throw err;
+  console.log(`Application is listening on port 8080: http://localhost:8080`);
+});
