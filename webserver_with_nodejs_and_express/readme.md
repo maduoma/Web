@@ -34,10 +34,10 @@ res.send({ message: 'Hello Route!' });
 > A Routes is associted with:
 
 ```
-   1. an HTTP verb — in this case, it’s the GET verb.
-   2. It takes a URL path — in this case, it’s the homepage (/).
-   3. It takes a function which will be called when you access the endpoint.
-   Therefore, when a user makes a GET request to your homepage, localhost:3333, the arrow function is called and will display "Hello Route!"
+1. an HTTP verb — in this case, it’s the GET verb.
+2. It takes a URL path — in this case, it’s the homepage (/).
+3. It takes a function which will be called when you access the endpoint.
+Therefore, when a user makes a GET request to your homepage, localhost:3333, the arrow function is called and will display "Hello Route!"
 ```
 
 ### License
