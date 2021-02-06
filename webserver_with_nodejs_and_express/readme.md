@@ -32,10 +32,21 @@ A Routes is associted with:
 3. It takes a function which will be called when you access the endpoint.
    Therefore, when a user makes a GET request to your homepage, localhost:3333, the arrow function is called and will display "Hello Route!"
 
+## Returning result of an operation
+
+> Java
+
+```java
+int getScore(int value) {
+    // logic here
+    return 2 * value;
+}
+```
+
 ### License
 
 ```
-   Copyright (C) 2017 MINDORKS NEXTGEN PRIVATE LIMITED
+   Copyright (C) 2021 DODEMY TECHNOLOGY LIMITED
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -50,6 +61,4 @@ A Routes is associted with:
    limitations under the License.
 ```
 
-### Contributing to From Java To Kotlin
-
-Just make a pull request. You are in!
+### A Simple Web Server built with Node.js and Express
