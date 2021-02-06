@@ -1,0 +1,14 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "Functions",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "Maduabughichi Achilefu",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
