@@ -1,6 +1,6 @@
-### A Simple Web Server Built With Node.js And Express
+# A Simple Web Server Built With Node.js And Express
 
-#### Please note that in this application, the server code resides in app.js.
+> > Please note that in this application, the server code resides in app.js.
 
 > 7 Steps to creating a Simple Web Server built with Node.js and Express which will serve up and HTML page, which will be accessible by other people.
 
