@@ -2,7 +2,7 @@
 
 > > Please note that in this application, the server code resides in app.js.
 
-> 7 Steps to creating a Simple Web Server built with Node.js and Express which will serve up and HTML page, which will be accessible by other people.
+> 6 Steps to creating a Simple Web Server built with Node.js and Express which will serve up and HTML page, which will be accessible by other people.
 
 ```
 1. Step 1: Create an create an empty folder for the project, say "webserver_with_nodejs_and_express"
@@ -18,20 +18,28 @@
 ```
 1. Step 1: Import the path module into your application. The path comes by default with Node.js - The path module allows us to generate absolute paths, which you need to serve static assets.
 2. Step 2: Create public folder and add assets
-3. Step 3: Serve the HTML File - Since you are not using any template engine (e.g., Pug, EJS, and so on), you cannot use the render method.
+3. Step 3: Serve the HTML File - Since you are not using any template engine (e.g., Pug, EJS, etc), you cannot use the render method.
 ```
 
 > Note
 
 ```
-A Route: In the simplest terms, a route represents an endpoint which users can access. A route is associated with an HTTP verb (e.g. GET, POST, etc), and it takes a URL path. It also takes a function which is called when the endpoint is accessed like:
+A Route: In the simplest terms, a route represents an endpoint which users can access. A route is associated with an HTTP verb (e.g. GET, POST, etc), and it takes a URL path. It also takes a function which is called when the endpoint is accessed as shown below:
 ```
 
-> A Route:
+> Routes:
 
 ```
 app.get('/', (req, res) => {
 res.send({ message: 'Hello Route!' });
+});
+```
+
+> > OR Serve the HTML File // Serving Static Assets such as HTML, CSS, JavaScript, Images
+
+```
+app.get('/', (req, res) => {
+  res.sendFile(`${__dirname}/public/index.html`);
 });
 ```
 
