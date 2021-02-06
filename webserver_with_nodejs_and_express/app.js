@@ -1,7 +1,7 @@
 const path = require('path');
 // For every package added, you must import it in the file that you want to use it.
 const express = require('express');
-// calls the express function, which creates a new application and then assigns the result to the app constant
+// Calls the express function, which creates a new application and then assigns the result to the app constant
 const app = express();
 
 // Use the path
