@@ -1,0 +1,34 @@
+{
+  "name": "travelexpert",
+  "version": "1.0.0",
+  "description": "Travel Expert",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.5.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4",
+    "textgen": "0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maduoma/TravelExpert.git"
+  },
+  "keywords": [
+    "travel",
+    "expert",
+    "expenses"
+  ],
+  "author": "Maduabughichi Achilefu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maduoma/TravelExpert/issues"
+  },
+  "homepage": "https://github.com/maduoma/TravelExpert#readme"
+}
