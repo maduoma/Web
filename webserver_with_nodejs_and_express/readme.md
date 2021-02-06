@@ -14,3 +14,42 @@
 3. Step 3: Serve the HTML File - Since you are not using any template engine (e.g., Pug, EJS, and so on), you cannot use the render method.
 
 # console.log(path.join(\_\_dirname, 'public'));
+
+# Note
+
+## Routes: In the simplest terms, a route represents an endpoint which users can access. A route is associated with an HTTP verb (e.g. GET, POST, etc), and it takes a URL path. It also takes a function which is called when the endpoint is accessed like:
+
+---
+
+app.get('/', (req, res) => {
+res.send({ message: 'Hello Route!' });
+});
+
+A Routes is associted with:
+
+1. an HTTP verb — in this case, it’s the GET verb.
+2. It takes a URL path — in this case, it’s the homepage (/).
+3. It takes a function which will be called when you access the endpoint.
+   Therefore, when a user makes a GET request to your homepage, localhost:3333, the arrow function is called and will display "Hello Route!"
+
+### License
+
+```
+   Copyright (C) 2017 MINDORKS NEXTGEN PRIVATE LIMITED
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+```
+
+### Contributing to From Java To Kotlin
+
+Just make a pull request. You are in!
