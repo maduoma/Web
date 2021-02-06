@@ -40,7 +40,7 @@ res.send({ message: 'Hello Route!' });
 Therefore, when a user makes a GET request to your homepage, localhost:8080, the arrow function is called and will display "Hello Route!"
 ```
 
-# License
+### License
 
 ```
    Copyright (C) 2021 DODEMY TECHNOLOGY LIMITED
@@ -58,4 +58,4 @@ Therefore, when a user makes a GET request to your homepage, localhost:8080, the
    limitations under the License.
 ```
 
-# A Simple Web Server built with Node.js and Express
+### A Simple Web Server built with Node.js and Express
