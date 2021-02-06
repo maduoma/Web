@@ -27,7 +27,7 @@
 A Route: In the simplest terms, a route represents an endpoint which users can access. A route is associated with an HTTP verb (e.g. GET, POST, etc), and it takes a URL path. It also takes a function which is called when the endpoint is accessed as shown below:
 ```
 
-> Route:
+> A Route:
 
 ```
 app.get('/', (req, res) => {
