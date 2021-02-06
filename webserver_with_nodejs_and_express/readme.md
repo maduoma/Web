@@ -2,7 +2,7 @@
 
 > > Please note that in this application, the server code resides in app.js.
 
-> 6 Steps to creating a Simple Web Server with Node.js and Express which will serve up and HTML page, which will be accessible by users.
+> 6 Steps to creating a Simple Web Server with Node.js and Express which will serve up a HTML page, which will be accessible by users or visitors of the page.
 
 ```
 1. Step 1: Create an create an empty folder for the project, say "webserver_with_nodejs_and_express"
